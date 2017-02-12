@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let tipPercent = Int(sender.value)
         
         // update the tip% label
-        lblTipPercent.text = "\(tipPercent)%"
+        lblTipPercent.text = "\(tipPercent)% Tip"
         
         // calculate the total cost if bill amount is not the default
         if !(txtBillAmount.text ?? "").isEmpty
